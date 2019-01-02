@@ -1,0 +1,12 @@
+{
+  "name": "js-algorithms",
+  "version": "1.0.0",
+  "description": "Implementation of the most famous algorithms on Javascript",
+  "author": "Alexey Mozheyko",
+  "scripts": {
+    "test": "jest"
+  },
+  "devDependencies": {
+    "jest": "^23.6.0"
+  }
+}
