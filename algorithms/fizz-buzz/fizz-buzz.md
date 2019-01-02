@@ -1,6 +1,6 @@
 # FizzBuzz algorithm
 
-*fizzBuzz(n)* should log in the console an array with numbers from 1 to n with the following rules:
+**_fizzBuzz(n)_** should log in the console an array with numbers from 1 to n with the following rules:
 
 >- numbers divided by 3 should be replaced on *'Fizz'* word.
 >- numbers divided by 5 should be replaced on *'Buzz'* word.
