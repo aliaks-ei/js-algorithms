@@ -1,10 +1,10 @@
 # FizzBuzz algorithm
 
-fizzBuzz(n) should log in the console all numbers from 1 to n.
+*fizzBuzz(n)* should log in the console an array with numbers from 1 to n with the following rules:
 
->- numbers divided by 3 should by replaced on 'Fizz' word.
->- numbers divided by 5 should by replaced on 'Buzz' word.
->- numbers divided by 3 and 5 should by replaced on 'FizzBuzz' word.
+>- numbers divided by 3 should by replaced on *'Fizz'* word.
+>- numbers divided by 5 should by replaced on *'Buzz'* word.
+>- numbers divided by 3 and 5 should by replaced on *'FizzBuzz'* word.
 
 
 For example:
