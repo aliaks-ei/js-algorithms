@@ -1,4 +1,4 @@
-# Caesar cipher algorithm
+# Caesar cipher
 
 ## Description
 
