@@ -1,4 +1,4 @@
-const bubbleSort = require('./bubble-sort');
+const bubbleSort = require('../bubble-sort');
 
 describe('Bubble sort: ', () => {
     test('should return sort array (only positive numbers)', () => {
