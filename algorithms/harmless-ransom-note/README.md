@@ -2,7 +2,7 @@
 
 ## Description
 
-Harmless ransom note is an algorithm that defines is it possible to create string 
+_Harmless ransom note_ is an algorithm that defines is it possible to create string 
 with the words present in the magazine text or not.
 
 ## Implementation
