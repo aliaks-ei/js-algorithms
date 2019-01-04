@@ -2,7 +2,7 @@
 
 ## Description
 
-Description of the Fibonacci sequence you can read [here](https://en.wikipedia.org/wiki/Fibonacci_number).
+Description of the _Fibonacci_ sequence you can read [here](https://en.wikipedia.org/wiki/Fibonacci_number).
 > NOTE: it's the simplest version of the algorithm and will exceed maximum call stack size in case of large _position_
 given (i.e. 50).
 
