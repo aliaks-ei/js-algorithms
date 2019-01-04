@@ -5,3 +5,4 @@ A collection of the most famous algorithms implemented in Javascript:
 2. [Bubble sort](algorithms/bubble-sort)
 3. [Caesar cipher](algorithms/caesar-cipher)
 4. [Fibonacci](algorithms/fibonacci)
+5. [Fizz Buzz](algorithms/fizz-buzz)
