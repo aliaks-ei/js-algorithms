@@ -1,2 +1,2 @@
-# Algorithms on Javascript
-Implementation of the most famous algorithms on Javascript 
+# Algorithms in Javascript
+A collection of the most famous algorithms implemented in Javascript 
