@@ -13,5 +13,4 @@ For example:
 
 ```
 binarySearch([5, 7, 12, 16, 36, 56, 71], 56)  //  true
-binarySearch([5, 7, 12, 16, 36, 56, 71], 99)  //  false
 ```
