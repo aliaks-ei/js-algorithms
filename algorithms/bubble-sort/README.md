@@ -1,4 +1,4 @@
-# Bubble sort algorithm
+# Bubble sort
 
 ## Description
 
