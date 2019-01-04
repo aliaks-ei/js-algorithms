@@ -11,5 +11,5 @@ Bubble sort is a simple sorting algorithm that repeatedly steps through the list
 For example:
 
 ```
-bubbleSort([5, 3, 8, 2, 1, 4])   //  [1, 2, 3, 4, 5, 8]
+bubbleSort([5, 3, 8, 2, 1, 4]) //  [1, 2, 3, 4, 5, 8]
 ```
