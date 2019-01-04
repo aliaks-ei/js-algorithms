@@ -1,7 +1,7 @@
 # Binary search algorithm
 
-**_binarySearch(numArray, key)_** should return _true_ if key is present in _numArray_
-    and _false_ if it's not.
+**_binarySearch(numArray, key)_** should return **_true_** if _key_ is present in _numArray_
+    and **_false_** if it's not.
 
 For example:
 
