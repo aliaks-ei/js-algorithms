@@ -2,7 +2,7 @@
 
 ## Description
 
-Fizz Buzz is a game in which you should incrementally count numbers, replacing any number divisible by 3 on _'Fizz'_ word,
+_Fizz Buzz_ is a game in which you should incrementally count numbers, replacing any number divisible by 3 on _'Fizz'_ word,
 any number divisible by 5 on _'Buzz'_ word, and any number divisible both by 3 and 5 on _'FizzBuzz'_ word. 
 
 ## Implementation
