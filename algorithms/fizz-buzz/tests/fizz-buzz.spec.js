@@ -1,4 +1,4 @@
-const fizzBuzz = require('./fizz-buzz');
+const fizzBuzz = require('../fizz-buzz');
 
 describe('Fizz Buzz:', () => {
     test('tests with 2 as given number', () => {
