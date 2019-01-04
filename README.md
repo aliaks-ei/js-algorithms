@@ -6,3 +6,4 @@ A collection of the most famous algorithms implemented in Javascript:
 3. [Caesar cipher](algorithms/caesar-cipher)
 4. [Fibonacci](algorithms/fibonacci)
 5. [Fizz Buzz](algorithms/fizz-buzz)
+6. [Harmless ransom note](algorithms/harmless-ransom-note)
