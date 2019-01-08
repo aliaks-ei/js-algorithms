@@ -14,3 +14,4 @@ A collection of the most famous algorithms implemented in Javascript:
 10. [Merge sort](algorithms/merge-sort)
 11. [Palindrome](algorithms/is-palindrome)
 12. [Reverse array in place](algorithms/reverse-array-in-place)
+13. [Reverse words](algorithms/reverse-words)
