@@ -7,5 +7,5 @@ A collection of the most famous algorithms implemented in Javascript:
 4. [Fibonacci](algorithms/fibonacci)
 5. [Fizz Buzz](algorithms/fizz-buzz)
 6. [Harmless ransom note](algorithms/harmless-ransom-note)
-7. [Palindrome](algorithms/is-palindrome)
-8. [Maximum stock profit](algorithms/max-stock-profit)
+7. [Maximum stock profit](algorithms/max-stock-profit)
+11. [Palindrome](algorithms/is-palindrome)
