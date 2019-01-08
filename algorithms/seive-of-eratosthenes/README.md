@@ -1,4 +1,4 @@
-# Seive of eratosthenes
+# Seive of Eratosthenes
 
 ## Description
 
