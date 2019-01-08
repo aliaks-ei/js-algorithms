@@ -1,7 +1,7 @@
 {
   "name": "js-algorithms",
   "version": "1.0.0",
-  "description": "Implementation of the most famous algorithms on Javascript",
+  "description": "A collection of the most famous algorithms implemented in Javascript",
   "author": "Alexey Mozheyko",
   "scripts": {
     "test:unit": "jest"
