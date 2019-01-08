@@ -9,7 +9,7 @@ function twoSum(numArray = [], sum) {
         let counterPart = sum - currNum;
 
         if (hashTable.includes(counterPart)) {
-            pairs.push([ currNum, counterPart ]);
+            pairs.push([ counterPart, currNum ]);
         }
 
         hashTable.push(currNum);
