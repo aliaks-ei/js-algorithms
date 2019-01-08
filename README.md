@@ -9,4 +9,5 @@ A collection of the most famous algorithms implemented in Javascript:
 6. [Harmless ransom note](algorithms/harmless-ransom-note)
 7. [Maximum stock profit](algorithms/max-stock-profit)
 8. [Mean, median, mode](algorithms/mean-median-mode)
+9. [Memoized Fibonacci](algorithms/memoized-fibonacci)
 11. [Palindrome](algorithms/is-palindrome)
