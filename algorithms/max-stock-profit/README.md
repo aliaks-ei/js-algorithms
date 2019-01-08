@@ -6,7 +6,7 @@ You will be given a list of stock prices for a given day and your goal is to ret
 
 There are some confitions:
 >   - if no profit could have been made, return -1.
->   - a max profit of 0 is treated as any other max profit value.
+>   - a maximum profit of 0 is treated as any other maximum profit value.
 >   - you can only sell a stock after you have bought it.
 
 ## Implementation
