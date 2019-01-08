@@ -2,7 +2,7 @@
 
 ## Description
 
-You will be given a string and your goal is to reverse each word in it.  
+You will be given a string and your goal is to reverse every word in it.  
 
 ## Implementation
 
