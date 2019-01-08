@@ -6,8 +6,8 @@ _Merge sort_ is an efficient, general-purpose, comparison-based sorting algorith
   
 Conceptually, a merge sort works as follows:
 
-    - divide the unsorted list into _n_ sublists, each containing one element (a list of one element is considered sorted).
-    - repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
+  - divide the unsorted list into _n_ sublists, each containing one element (a list of one element is considered sorted).
+  - repeatedly merge sublists to produce new sorted sublists until there is only one sublist remaining. This will be the sorted list.
 
 ## Implementation
 
