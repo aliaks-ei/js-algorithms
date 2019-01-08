@@ -1,4 +1,4 @@
-function bubbleSort(array) {
+function bubbleSort(array = []) {
     let arrayLength = array.length;
 
     for (let i = arrayLength; i > 0; i--) {
