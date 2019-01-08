@@ -10,7 +10,7 @@ For example if the input is **_[45, 24, 35, 31, 40, 38, 11]_** then the maximum 
 
 **_maxStockProfit(prices)_** should return the maximum possible profit depending on _prices_ values.
 
-There are some confitions:
+There are some conditions:
 >   - if no profit could have been made, return _-1_.
 >   - a maximum profit of _0_ is treated as any other maximum profit value.
 >   - you can only sell a stock after you have bought it.
