@@ -2,7 +2,7 @@
 
 ## Description
 
-You will be given an array of numbers and your goal is to return the object with 3 parameters:
+You will be given an array of numbers and your goal is to return an object with 3 parameters:
 
 >   - **_mean_** - the _"average"_ number found by adding all data points and dividing by the number of data points.
 >   - **_median_** - the _middle_ number found by ordering all data points and picking out the one in the middle (or if there are two middle numbers, taking the mean of those two numbers).
