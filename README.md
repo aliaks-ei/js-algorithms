@@ -16,3 +16,4 @@ A collection of the most famous algorithms implemented in Javascript:
 12. [Reverse array in place](algorithms/reverse-array-in-place)
 13. [Reverse words](algorithms/reverse-words)
 14. [Seive of Eratosthenes](algorithms/seive-of-eratosthenes)
+15. [Two sum](algorithms/two-sum)
