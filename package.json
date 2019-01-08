@@ -4,7 +4,7 @@
   "description": "Implementation of the most famous algorithms on Javascript",
   "author": "Alexey Mozheyko",
   "scripts": {
-    "test": "jest"
+    "test:unit": "jest"
   },
   "devDependencies": {
     "jest": "^23.6.0"
