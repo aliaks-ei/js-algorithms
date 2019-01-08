@@ -2,7 +2,7 @@
 
 ## Description
 
-You will be given an array and your goal is to return a reversed array.  
+You will be given an array and your goal is to reverse it.  
   
 ## Implementation
 
