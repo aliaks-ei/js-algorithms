@@ -6,7 +6,7 @@ You will be given an array of numbers and your goal is to return an object with 
 
 >   - **_mean_** - the _"average"_ number found by adding all data points and dividing by the number of data points.
 >   - **_median_** - the _middle_ number found by ordering all data points and picking out the one in the middle (or if there are two middle numbers, taking the mean of those two numbers).
->   - **_mode_** - the most frequent data point(s) (the data point(s) that occurs the highest number of times).
+>   - **_mode_** - the most _frequent_ data point(s) (the data point(s) that occurs the highest number of times).
 
 ## Implementation
 
