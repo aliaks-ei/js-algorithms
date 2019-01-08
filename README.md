@@ -13,3 +13,4 @@ A collection of the most famous algorithms implemented in Javascript:
 9. [Memoized Fibonacci](algorithms/memoized-fibonacci)
 10. [Merge sort](algorithms/merge-sort)
 11. [Palindrome](algorithms/is-palindrome)
+12. [Reverse array in place](algorithms/reverse-array-in-place)
