@@ -1,4 +1,4 @@
-function isPalindrome(string) {
+function isPalindrome(string = '') {
     const validChars = 'abcdefghijklmnopqrstuvwxyz'.split('');
 
     let lowerStr = string.toLowerCase();

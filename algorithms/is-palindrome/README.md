@@ -2,7 +2,7 @@
 
 ## Description
 
-Algorithm that defines whether given string is [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
+Algorithm that defines whether string is [palindrome](https://en.wikipedia.org/wiki/Palindrome) or not.
 
 ## Implementation
 
