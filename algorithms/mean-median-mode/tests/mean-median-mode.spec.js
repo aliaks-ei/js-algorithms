@@ -34,7 +34,7 @@ describe('Mean, median, mode:', () => {
         expect(meanMedianMode(numArray)).toEqual(expected);
     });
 
-    test('should return { mean: 0, median: null, mode: [] } if no array passed', () => {
+    test('should return { mean: 0, median: null, mode: [] } if no parameter passed', () => {
         let expected = {
             mean   : 0, 
             median : null, 

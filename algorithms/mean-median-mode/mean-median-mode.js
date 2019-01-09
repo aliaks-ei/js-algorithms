@@ -26,13 +26,13 @@ function getMedian(array = []) {
     }
 
     if (arrLength % 2) {
-        median = array[Math.floor(arrLength / 2)];
+        median = array[ Math.floor(arrLength / 2) ];
     }
     else {
-        let mid1 = array[(arrLength / 2) - 1];
-        let mid2 = array[arrLength / 2];
+        let firstMiddleElem  = array[ (arrLength / 2) - 1 ];
+        let secondMiddleElem = array[ arrLength / 2 ];
 
-        median = (mid1 + mid2) / 2;
+        median = (firstMiddleElem + secondMiddleElem) / 2;
     }
 
     return median;
@@ -51,12 +51,12 @@ function getMode(array = []) {
     });
 
     let maxFrequency = 0;
-    let modes = [];
+    let modes        = [];
 
     for (let key in valuesObj) {           
         if (valuesObj[key] > maxFrequency) {
             maxFrequency = valuesObj[key];
-            modes = [ parseInt(key, 10) ];
+            modes        = [ parseInt(key, 10) ];
         }
         else if (valuesObj[key] === maxFrequency) {
             modes.push(parseInt(key, 10));

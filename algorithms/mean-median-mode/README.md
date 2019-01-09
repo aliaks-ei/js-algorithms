@@ -13,7 +13,7 @@ You will be given an array of numbers and your goal is to return an object with 
 **_meanMedianMode(array)_** should return an object with _mean_, _median_ and _mode_ parameters.
 
 There are some conditions:
->   - you should create 3 separate functions for each parameter (**_getMean()_**, **_getMedian()_**, **_getMode()_**).
+>   - you should create 3 separate functions to define every parameter (**_getMean()_**, **_getMedian()_**, **_getMode()_**).
 >   - **_getMode()_** should return an array (even if only 1 number occurs the highest number of times).
 >   - **_meanMedianMode()_** should call 3 functions described above.
 
