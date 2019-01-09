@@ -15,7 +15,9 @@ function sieveOfEratosthenes(num) {
         }
     }
 
-    for (let i = 0; i < primes.length; i++) {
+    let primesLength = primes.length;
+
+    for (let i = 0; i < primesLength; i++) {
         if (primes[i]) {
             result.push(i);
         }

@@ -2,11 +2,11 @@
 
 ## Description
 
-The _Sieve of Eratosthenes_ is a simple algorithm for finding all of the [prime numbers](https://en.wikipedia.org/wiki/Prime_number) up to a certain limit (or between two numbers).  
+The _Sieve of Eratosthenes_ is a simple algorithm for finding all of the [prime numbers](https://en.wikipedia.org/wiki/Prime_number) up to a certain limit.  
 
 ## Implementation
 
-**_sieveOfEratosthenes(num)_** should return an array of all prime numbers up to _num_.
+**_sieveOfEratosthenes(num)_** should return an array of all prime numbers up to the _num_.
 
 For example:
 

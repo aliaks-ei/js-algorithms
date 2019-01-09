@@ -13,11 +13,11 @@ describe('Seive of Eratosthenes:', () => {
         expect(sieveOfEratosthenes(27)).toEqual(primeNumbersArray);
     });
 
-    test('should return empty array if no number passed', () => {
+    test('should return an empty array if no number passed', () => {
         expect(sieveOfEratosthenes()).toEqual([]);
     });
 
-    test('should return empty array if negative number passed', () => {
+    test('should return an empty array if negative number passed', () => {
         expect(sieveOfEratosthenes(-5)).toEqual([]);
     });
 });
