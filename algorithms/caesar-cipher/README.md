@@ -6,7 +6,7 @@ _Caesar cipher_ is one of the simplest and most widely known encryption techniqu
 
 ## Implementation
 
-**_caesarCipher(str, num)_** should shift every letter in a given _str_ by a _num_ (positions down the alphabet).
+**_caesarCipher(str, num)_** should shift every letter in a given ```str``` by a ```num``` (positions down the alphabet).
 
 For example:
 
