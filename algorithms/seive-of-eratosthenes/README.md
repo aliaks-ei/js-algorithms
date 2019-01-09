@@ -6,7 +6,7 @@ The _Sieve of Eratosthenes_ is a simple algorithm for finding all of the [prime 
 
 ## Implementation
 
-**_sieveOfEratosthenes(num)_** should return an array of all prime numbers up to the _num_.
+**_sieveOfEratosthenes(num)_** should return an array of all prime numbers up to the ```num```.
 
 For example:
 
