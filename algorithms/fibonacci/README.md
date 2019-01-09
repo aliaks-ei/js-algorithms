@@ -9,7 +9,7 @@ given (i.e. 50).
 
 ## Implementation
 
-**_fibonacci(position)_** should return a number on given _position_ from _Fibonacci_ sequence.
+**_fibonacci(position)_** should return a number on given ```position``` from _Fibonacci_ sequence.
 
 For example:
 
