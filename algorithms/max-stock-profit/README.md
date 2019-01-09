@@ -8,7 +8,7 @@ For example if the input is **_[45, 24, 35, 31, 40, 38, 11]_** then the maximum 
 
 ## Implementation
 
-**_maxStockProfit(prices)_** should return the maximum possible profit depending on _prices_ values.
+**_maxStockProfit(prices)_** should return the maximum possible profit depending on the ```prices``` values.
 
 There are some conditions:
 >   - if no profit could have been made, return _-1_.
