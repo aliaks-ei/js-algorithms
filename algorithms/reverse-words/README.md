@@ -6,7 +6,7 @@ You will be given a string and your goal is to reverse every word in it.
 
 ## Implementation
 
-**_reverseWords(string)_** should return a string with every word reversed.
+**_reverseWords(string)_** should return a _string_ with every word reversed.
 
 There are some conditions:
 >   - every word should be reversed but the string as a whole should not be reserved.
