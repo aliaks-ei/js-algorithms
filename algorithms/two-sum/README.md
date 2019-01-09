@@ -7,7 +7,7 @@ in the given array that add up to the target sum.
 
 ## Implementation
 
-**_twoSum(numArray, sum)_** should return every pair of numbers from _numArray_ that adds up to the _sum_.  
+**_twoSum(numArray, sum)_** should return every pair of numbers from ```numArray``` that adds up to the ```sum```.  
   
 There are some conditions:
 >   - result should be an array of arrays.
