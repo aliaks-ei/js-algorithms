@@ -8,6 +8,13 @@ describe('Harmless ransom note:', () => {
         expect(harmlessRansomNote(noteText, magazineText)).toEqual(true);
     });
 
+    test('should return true for given string and magazine text (one word duplicated)', () => {
+        let noteText     = 'you are very very beautiful';
+        let magazineText = 'Sarah, are you listening for this very beautiful song that I\'ve sent you';
+
+        expect(harmlessRansomNote(noteText, magazineText)).toEqual(false);
+    });
+
     test('should return false for given string and magazine text (different cases)', () => {
         let noteText     = 'hello world';
         let magazineText = 'Hello from other World';

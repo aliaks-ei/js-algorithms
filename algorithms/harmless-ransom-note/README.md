@@ -8,7 +8,9 @@ with the words present in the magazine text or not.
 ## Implementation
 
 **_harmlessRansomNote(noteText, magazineText)_** should return **_true_** if it's possible 
-to create string _noteText_ from _magazineText_ and **_false_** if it's not possible.
+to create string _noteText_ from _magazineText_ and **_false_** if it's not possible.  
+  
+> MEMO: words with punctuation marks (e.g. !, ?, etc.) will be defined as a whole.
 
 For example:
 
