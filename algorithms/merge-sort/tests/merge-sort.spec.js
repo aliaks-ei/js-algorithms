@@ -15,7 +15,7 @@ describe('Merge sort: ', () => {
         expect(mergeSort(rawArray)).toEqual(sortedArray);
     });
 
-    test('should return empty array if no parameter passed', () => {    
+    test('should return an empty array if no parameter passed', () => {    
         expect(mergeSort()).toEqual([]);
     });
 });

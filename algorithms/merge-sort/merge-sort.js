@@ -21,10 +21,10 @@ function mergeSort(arr = []) {
         return arr;
     }
 
-    let middleIdx = Math.floor(arr.length / 2);
+    let middleIndex = Math.floor(arr.length / 2);
 
-    let firstHalf  = arr.slice(0, middleIdx);
-    let secondHalf = arr.slice(middleIdx);
+    let firstHalf  = arr.slice(0, middleIndex);
+    let secondHalf = arr.slice(middleIndex);
 
     return merge(
         mergeSort(firstHalf), 
