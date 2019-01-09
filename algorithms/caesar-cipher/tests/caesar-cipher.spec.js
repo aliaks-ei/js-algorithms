@@ -24,4 +24,14 @@ describe('Caesar cipher:', () => {
 
         expect(caesarCipher('', shiftNumber)).toEqual('');
     });
+
+    test('should return origin string (no num parameter passed)', () => {
+        let initialString  = 'Caesar cipher'
+
+        expect(caesarCipher(initialString)).toEqual(initialString);
+    });
+
+    test('should return empty string (no parameters passed)', () => {
+        expect(caesarCipher()).toEqual('');
+    });
 });

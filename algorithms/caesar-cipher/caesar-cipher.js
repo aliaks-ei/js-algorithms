@@ -1,12 +1,13 @@
-function caesarCipher(str, num) {
-    const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+function caesarCipher(str = '', num = 0) {
+    const alphabet       = 'abcdefghijklmnopqrstuvwxyz'.split('');
+    const alphabetLength = alphabet.length;
 
     let lowerStr       = str.toLowerCase();
     let lowerStrLength = lowerStr.length;
 
     let newString = '';
 
-    num = num % 26;
+    num = num % alphabetLength;
 
     for (let i = 0; i < lowerStrLength; i++) {
         let currentLetter = lowerStr[i];
