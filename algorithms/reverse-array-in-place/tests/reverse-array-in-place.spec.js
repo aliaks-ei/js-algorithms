@@ -15,9 +15,9 @@ describe('Reverse array in place:', () => {
         expect(reverseArrayInPlace(array)).toEqual(expected);
     });
 
-    test('should reverse given array', () => {
-        let array    = [0, 1e8, -300, 24, -1];
-        let expected = [-1, 24, -300, 1e8, 0];
+    test('should reverse given array (different types of data)', () => {
+        let array    = [0, 1e8, -300, 'hello', null, 24, -1];
+        let expected = [-1, 24, null, 'hello', -300, 1e8, 0];
 
         expect(reverseArrayInPlace(array)).toEqual(expected);
     });
