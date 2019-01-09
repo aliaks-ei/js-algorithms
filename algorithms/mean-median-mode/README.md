@@ -10,7 +10,7 @@ You will be given an array of numbers and your goal is to return an object with 
 
 ## Implementation
 
-**_meanMedianMode(array)_** should return an object with _mean_, _median_ and _mode_ parameters.
+**_meanMedianMode(array)_** should return an object with _mean_, _median_ and _mode_ parameters of the given ```array```.
 
 There are some conditions:
 >   - you should create 3 separate functions to define every parameter (**_getMean()_**, **_getMedian()_**, **_getMode()_**).
