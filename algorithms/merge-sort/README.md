@@ -11,7 +11,7 @@ Conceptually, a merge sort works as follows:
 
 ## Implementation
 
-**_mergeSort(arr)_** should return an array, sorted with _merge sort_.
+**_mergeSort(arr)_** should return the origin ```arr```, sorted with _merge sort_.
 
 You should create 2 separate functions:
 >   - **_mergeSort()_** that takes in a single, unsorted array as a parameter and split the array into two halves.
