@@ -8,7 +8,7 @@ The pass through the list is repeated until the list is sorted. The algorithm, w
 
 ## Implementation
 
-**_bubbleSort(array)_** should return an array, sorted with _bubble sort_.
+**_bubbleSort(array)_** should return an origin array, sorted with _bubble sort_.
 
 For example:
 
