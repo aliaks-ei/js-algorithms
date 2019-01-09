@@ -6,8 +6,8 @@ Algorithm that defines whether string is [palindrome](https://en.wikipedia.org/w
 
 ## Implementation
 
-**_isPalindrome(string)_** should return **_true_** if given string is palindrome 
-and **_false_** if it's not.
+**_isPalindrome(string)_** should return **true** if the given ```string``` is palindrome 
+and **false** otherwise.
 
 For example:
 
