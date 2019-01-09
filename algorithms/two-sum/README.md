@@ -2,7 +2,8 @@
 
 ## Description
 
-You will be given an array and a target sum and your goal is to find all pairs in the given array that add up to the target sum.  
+You will be given an array and a target sum and your goal is to find all pairs 
+in the given array that add up to the target sum.  
 
 ## Implementation
 
