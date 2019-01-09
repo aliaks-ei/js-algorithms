@@ -2,7 +2,7 @@
 
 ## Description
 
-You will be given a list of stock prices for a given day and your goal is to return the maximum profit that could have been made by buying a stock at the given price and then selling the stock later on.   
+You will be given a list of stock prices for a day and your goal is to return the maximum profit that could have been made by buying a stock at the given price and then selling the stock later on.   
   
 For example if the input is **_[45, 24, 35, 31, 40, 38, 11]_** then the maximum profit is **16** because if you bought the stock at _$24_ and sold it at _$40_, a profit of _$16_ was made and this is the largest profit that could be made.
 

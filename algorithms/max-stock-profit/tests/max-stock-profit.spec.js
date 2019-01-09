@@ -29,10 +29,9 @@ describe('Maximum stock profit: ', () => {
         expect(maxStockProfit(prices)).toBe(profit);
     });
 
-    test('should return -1 as maximum profit because empty array is passed', () => {
-        let prices = []
+    test('should return -1 as maximum profit because empty array passed', () => {
         let profit = -1;
 
-        expect(maxStockProfit(prices)).toBe(profit);
+        expect(maxStockProfit([])).toBe(profit);
     });
 });

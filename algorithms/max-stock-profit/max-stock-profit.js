@@ -1,4 +1,4 @@
-function maxStockProfit(prices) {
+function maxStockProfit(prices = []) {
     const pricesLength = prices.length;
 
     let maxProfit = -1;
