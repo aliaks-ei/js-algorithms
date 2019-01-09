@@ -21,4 +21,8 @@ describe('Binary search: ', () => {
     
         expect(binarySearch(numArray, key)).toEqual(false);
     });
+
+    test('should return false if no parameters passed', () => {    
+        expect(binarySearch()).toEqual(false);
+    });
 });
