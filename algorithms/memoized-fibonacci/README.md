@@ -8,7 +8,7 @@ Explanation of the _Fibonacci_ sequence you can read [here](https://en.wikipedia
 
 ## Implementation
 
-**_memoizedFibonacci(index, cache)_** should return a number on given _index_ from _Fibonacci_ sequence.
+**_memoizedFibonacci(index, cache)_** should return a number on given ```index``` from _Fibonacci_ sequence.
 
 For example:
 
