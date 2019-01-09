@@ -6,7 +6,7 @@ You will be given an array and your goal is to reverse it.
   
 ## Implementation
 
-**_reverseArrayInPlace(arr)_** should return a reversed array.
+**_reverseArrayInPlace(arr)_** should return the origin ```arr``` reversed.
 
 There are some conditions:
 >   - be sure to manipulate the array passed in.
