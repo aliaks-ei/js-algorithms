@@ -1,21 +1,18 @@
 function isPalindrome(string = '') {
-    const validChars = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const validChars = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const charsArr   = string.toLowerCase().split('');
+  const lettersArr = [];
 
-    let lowerStr = string.toLowerCase();
-    let charsArr = lowerStr.split('');
+  charsArr.forEach(char => {
+    if (validChars.includes(char)) {
+      lettersArr.push(char);
+    }
+  });
 
-    let lettersArr = [];
+  const initialString = lettersArr.join('');
+  const reverseString = lettersArr.reverse().join('');
 
-    charsArr.forEach(char => {
-        if (validChars.includes(char)) {
-            lettersArr.push(char);
-        }
-    });
-
-    let initialString = lettersArr.join('');
-    let reverseString = lettersArr.reverse().join('');
-
-    return initialString === reverseString;
+  return initialString === reverseString;
 }
 
 module.exports = isPalindrome;

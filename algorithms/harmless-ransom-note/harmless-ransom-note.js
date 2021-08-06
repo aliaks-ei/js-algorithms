@@ -1,28 +1,27 @@
 function harmlessRansomNote(noteText = '', magazineText = '') {
-    let noteArr     = noteText.split(' ');
-    let magazineArr = magazineText.split(' ');
+  const noteArr         = noteText.split(' ');
+  const magazineArr     = magazineText.split(' ');
+  const wordsInMagazine = {};
 
-    let wordsInMagazine = {};
+  let isNotePossible = true;
 
-    let isNotePossible = true;
+  magazineArr.forEach(word => {
+    wordsInMagazine[word]
+      ? wordsInMagazine[word]++
+      : wordsInMagazine[word] = 1;
+  });
 
-    magazineArr.forEach(word => {
-        wordsInMagazine[word]
-            ? wordsInMagazine[word]++
-            : wordsInMagazine[word] = 1;
-    });
+  noteArr.forEach(word => {
+    if (!wordsInMagazine[word]) {
+      isNotePossible = false;
 
-    noteArr.forEach(word => {
-        if (!wordsInMagazine[word]) {
-            isNotePossible = false;
-            
-            return;
-        }
+      return;
+    }
 
-        wordsInMagazine[word]--;
-    });
+    wordsInMagazine[word]--;
+  });
 
-    return isNotePossible;
+  return isNotePossible;
 }
 
 module.exports = harmlessRansomNote;

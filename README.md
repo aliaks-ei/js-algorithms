@@ -1,6 +1,6 @@
 # Algorithms in Javascript
 
-### A collection of the most famous algorithms implemented in Javascript:
+## A collection of the most famous algorithms implemented in Javascript:
 
 1. [Binary search](algorithms/binary-search)
 2. [Bubble sort](algorithms/bubble-sort)
@@ -17,3 +17,13 @@
 13. [Reverse words](algorithms/reverse-words)
 14. [Seive of Eratosthenes](algorithms/seive-of-eratosthenes)
 15. [Two sum](algorithms/two-sum)
+
+### Project setup
+```
+npm install
+```
+
+### Run unit tests
+```
+npm run test:unit
+```

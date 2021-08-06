@@ -1,39 +1,35 @@
 function caesarCipher(str = '', num = 0) {
-    const alphabet       = 'abcdefghijklmnopqrstuvwxyz'.split('');
-    const alphabetLength = alphabet.length;
+  const alphabet       = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const lowerStr       = str.toLowerCase();
+  const lowerStrLength = lowerStr.length;
+  const position       = num % alphabet.length;
 
-    let lowerStr       = str.toLowerCase();
-    let lowerStrLength = lowerStr.length;
+  let newString = '';
 
-    let newString = '';
+  for (let i = 0; i < lowerStrLength; i++) {
+    const currentLetter = lowerStr[i];
 
-    num = num % alphabetLength;
-
-    for (let i = 0; i < lowerStrLength; i++) {
-        let currentLetter = lowerStr[i];
-        
-        if (currentLetter === ' ') {
-            newString += currentLetter;
-        }
-        else {
-            let currentIndex = alphabet.indexOf(currentLetter);
-            let newIndex     = currentIndex + num;
-
-            if (newIndex > 25) {
-                newIndex -= alphabet.length;
-            }
-
-            if (newIndex < 0) {
-                newIndex = alphabet.length + newIndex;
-            }
-
-            str[i] === str[i].toUpperCase()
-                ? newString += alphabet[newIndex].toUpperCase()
-                : newString += alphabet[newIndex];
-        }
+    if (currentLetter === ' ') {
+      newString += currentLetter;
     }
+    else {
+      let newIndex = alphabet.indexOf(currentLetter) + position;
 
-    return newString;
+      if (newIndex > 25) {
+        newIndex -= alphabet.length;
+      }
+
+      if (newIndex < 0) {
+        newIndex = alphabet.length + newIndex;
+      }
+
+      newString += (str[i] === str[i].toUpperCase())
+        ? alphabet[newIndex].toUpperCase()
+        : alphabet[newIndex];
+    }
+  }
+
+  return newString;
 }
 
 module.exports = caesarCipher;

@@ -1,21 +1,20 @@
 function twoSum(numArray = [], sum) {
-    let pairs     = [];
-    let hashTable = [];
+  const pairs       = [];
+  const hashTable   = [];
+  const arrayLength = numArray.length;
 
-    const arrayLength = numArray.length;
+  for (let i = 0; i < arrayLength; i++) {
+    const currNum     = numArray[i];
+    const counterPart = sum - currNum;
 
-    for (let i = 0; i < arrayLength; i++) {
-        let currNum     = numArray[i];
-        let counterPart = sum - currNum;
-
-        if (hashTable.includes(counterPart)) {
-            pairs.push([ counterPart, currNum ]);
-        }
-
-        hashTable.push(currNum);
+    if (hashTable.includes(counterPart)) {
+        pairs.push([counterPart, currNum]);
     }
 
-    return pairs;
+    hashTable.push(currNum);
+  }
+
+  return pairs;
 }
 
 module.exports = twoSum;
