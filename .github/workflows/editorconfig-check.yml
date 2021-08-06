@@ -3,7 +3,7 @@ name: editorconfig-check
 on: [push]
 
 jobs:
-  unit-tests:
+  editorconfig-check:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
