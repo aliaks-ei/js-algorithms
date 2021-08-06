@@ -4,7 +4,7 @@
   "description": "A collection of the most famous algorithms implemented in Javascript",
   "author": "Alexey Mozheyko",
   "scripts": {
-    "test:unit": "jest ./algorithms/**/*.spec.js --silent",
+    "test:unit": "jest --silent",
     "editorconfig:check": "editorconfig-checker --exclude '.git|node_modules|.DS_store'"
   },
   "devDependencies": {
