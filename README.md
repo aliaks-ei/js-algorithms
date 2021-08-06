@@ -1,5 +1,8 @@
 # Algorithms in Javascript
 
+[![unit-tests](https://github.com/alexmozheyko/js-algorithms/actions/workflows/unit-tests.yml/badge.svg)](https://github.com/alexmozheyko/js-algorithms/actions/workflows/unit-tests.yml)
+[![editorconfig-check](https://github.com/alexmozheyko/js-algorithms/actions/workflows/editorconfig-check.yml/badge.svg)](https://github.com/alexmozheyko/js-algorithms/actions/workflows/editorconfig-check.yml)
+
 ## A collection of the most famous algorithms implemented in Javascript:
 
 1. [Binary search](src/binary-search)
