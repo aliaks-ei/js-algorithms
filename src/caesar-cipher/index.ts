@@ -1,12 +1,11 @@
-function caesarCipher(str = '', num = 0) {
-  const alphabet       = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  const lowerStr       = str.toLowerCase();
-  const lowerStrLength = lowerStr.length;
-  const position       = num % alphabet.length;
+function caesarCipher(str: string, num: number): string {
+  const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const lowerStr = str.toLowerCase();
+  const position = num % alphabet.length;
 
   let newString = '';
 
-  for (let i = 0; i < lowerStrLength; i++) {
+  for (let i = 0; i < lowerStr.length; i++) {
     const currentLetter = lowerStr[i];
 
     if (currentLetter === ' ') {
@@ -32,4 +31,4 @@ function caesarCipher(str = '', num = 0) {
   return newString;
 }
 
-module.exports = caesarCipher;
+export default caesarCipher;

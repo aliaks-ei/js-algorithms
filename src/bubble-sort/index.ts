@@ -1,4 +1,4 @@
-function bubbleSort(array: number[]) {
+function bubbleSort(array: number[]): number[] {
   for (let i = array.length; i > 0; i--) {
     for (let j = 0; j < i; j++) {
       if (array[j] > array[j + 1]) {

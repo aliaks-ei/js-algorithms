@@ -1,8 +1,8 @@
-const caesarCipher = require('./caesar-cipher');
+import caesarCipher from "./";
 
 describe('Caesar cipher:', () => {
   test('should return transformed string (number 3 given)', () => {
-    const initialString  = 'Zoo Keeper';
+    const initialString = 'Zoo Keeper';
     const expectedString = 'Crr Nhhshu';
 
     const shiftNumber = 3;
@@ -11,7 +11,7 @@ describe('Caesar cipher:', () => {
   });
 
   test('should return transformed string (number 84 given)', () => {
-    const initialString  = 'I love Javascript'
+    const initialString = 'I love Javascript'
     const expectedString = 'O rubk Pgbgyixovz';
 
     const shiftNumber = 84;
@@ -23,15 +23,5 @@ describe('Caesar cipher:', () => {
     const shiftNumber = 99;
 
     expect(caesarCipher('', shiftNumber)).toEqual('');
-  });
-
-  test('should return origin string (no num parameter passed)', () => {
-    const initialString  = 'Caesar cipher'
-
-    expect(caesarCipher(initialString)).toEqual(initialString);
-  });
-
-  test('should return empty string (no parameters passed)', () => {
-    expect(caesarCipher()).toEqual('');
   });
 });
