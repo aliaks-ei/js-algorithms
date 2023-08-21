@@ -24,9 +24,8 @@ function getMedian(array: number[]): number | null {
 
   if (arrLength % 2) {
     median = sortedArray[Math.floor(arrLength / 2)];
-  }
-  else {
-    const firstMiddleElem  = sortedArray[(arrLength / 2) - 1];
+  } else {
+    const firstMiddleElem = sortedArray[arrLength / 2 - 1];
     const secondMiddleElem = sortedArray[arrLength / 2];
 
     median = (firstMiddleElem + secondMiddleElem) / 2;
@@ -39,7 +38,7 @@ function getMedian(array: number[]): number | null {
 function getMode(array: number[]): number[] {
   const valuesObj: Record<number, number> = {};
 
-  array.forEach(item => {
+  array.forEach((item) => {
     if (!valuesObj[item]) {
       valuesObj[item] = 0;
     }
@@ -54,8 +53,7 @@ function getMode(array: number[]): number[] {
     if (valuesObj[key] > maxFrequency) {
       maxFrequency = valuesObj[key];
       modes = [parseInt(key, 10)];
-    }
-    else if (valuesObj[key] === maxFrequency) {
+    } else if (valuesObj[key] === maxFrequency) {
       modes.push(parseInt(key, 10));
     }
   }

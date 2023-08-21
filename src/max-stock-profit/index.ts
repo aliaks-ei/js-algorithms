@@ -14,8 +14,7 @@ function maxStockProfit(prices: number[]): number {
 
     if (sellPrice < buyPrice) {
       changeBuyPrice = true;
-    }
-    else {
+    } else {
       const tempProfit = sellPrice - buyPrice;
 
       if (tempProfit > maxProfit) {

@@ -2,7 +2,7 @@ function sieveOfEratosthenes(num: number): number[] {
   const primes: boolean[] = [];
   const result: number[] = [];
 
-  for (let i = 0; i <= num; i ++) {
+  for (let i = 0; i <= num; i++) {
     primes[i] = true;
   }
 

@@ -12,13 +12,11 @@ function binarySearch(numArray: number[] = [], key: number): boolean {
     let leftHalf = numArray.slice(0, middleIndex);
 
     return binarySearch(leftHalf, key);
-  }
-  else if (key > middleElem && numArrLength > 1) {
+  } else if (key > middleElem && numArrLength > 1) {
     let rightHalf = numArray.slice(middleIndex);
 
     return binarySearch(rightHalf, key);
-  }
-  else {
+  } else {
     return key === middleElem;
   }
 }

@@ -1,17 +1,16 @@
 function caesarCipher(str: string, num: number): string {
-  const alphabet = 'abcdefghijklmnopqrstuvwxyz'.split('');
+  const alphabet = "abcdefghijklmnopqrstuvwxyz".split("");
   const lowerStr = str.toLowerCase();
   const position = num % alphabet.length;
 
-  let newString = '';
+  let newString = "";
 
   for (let i = 0; i < lowerStr.length; i++) {
     const currentLetter = lowerStr[i];
 
-    if (currentLetter === ' ') {
+    if (currentLetter === " ") {
       newString += currentLetter;
-    }
-    else {
+    } else {
       let newIndex = alphabet.indexOf(currentLetter) + position;
 
       if (newIndex > 25) {
@@ -22,9 +21,10 @@ function caesarCipher(str: string, num: number): string {
         newIndex = alphabet.length + newIndex;
       }
 
-      newString += (str[i] === str[i].toUpperCase())
-        ? alphabet[newIndex].toUpperCase()
-        : alphabet[newIndex];
+      newString +=
+        str[i] === str[i].toUpperCase()
+          ? alphabet[newIndex].toUpperCase()
+          : alphabet[newIndex];
     }
   }
 
