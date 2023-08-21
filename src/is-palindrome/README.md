@@ -6,10 +6,10 @@ Algorithm that defines whether string is [palindrome](https://en.wikipedia.org/w
 
 ## Implementation
 
-**_isPalindrome(string)_** should return **true** if the given ```string``` is palindrome 
-and **false** otherwise.
+`isPalindrome(string)` should return `true` if the given `string` is palindrome 
+and `false` otherwise.
 
-For example:
+Example:
 
 ```
 isPalindrome('Race car') // true

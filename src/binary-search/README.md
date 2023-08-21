@@ -8,9 +8,9 @@ Binary search compares the target value to the middle element of the array. If t
 
 ## Implementation
 
-**_binarySearch(numArray, key)_** should return **true** if ```key``` is present in ```numArray``` and **false** otherwise.
+`binarySearch(numArray, key)` should return `true` if `key` is present in `numArray` and `false` otherwise.
 
-For example:
+Example:
 
 ```
 binarySearch([5, 7, 12, 16, 36, 56, 71], 56)  //  true
