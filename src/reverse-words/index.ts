@@ -1,6 +1,6 @@
-function reverseWords(string = '') {
-  const arrayOfWords         = string.split(' ');
-  const arrayOfReversedWords = [];
+function reverseWords(string: string): string {
+  const arrayOfWords = string.split(' ');
+  const arrayOfReversedWords: string[] = [];
 
   arrayOfWords.forEach(word => {
     const wordLength = word.length;
@@ -16,4 +16,4 @@ function reverseWords(string = '') {
   return arrayOfReversedWords.join(' ');
 }
 
-module.exports = reverseWords;
+export default reverseWords;
