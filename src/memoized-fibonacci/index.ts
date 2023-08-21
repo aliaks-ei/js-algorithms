@@ -1,4 +1,4 @@
-function memoizedFibonacci(index = 1, cache = []) {
+function memoizedFibonacci(index: number, cache: number[]): number {
   if (cache[index]) {
     return cache[index];
   }
@@ -13,4 +13,4 @@ function memoizedFibonacci(index = 1, cache = []) {
   return cache[index];
 }
 
-module.exports = memoizedFibonacci;
+export default memoizedFibonacci;
