@@ -1,7 +1,7 @@
-function isPalindrome(string = '') {
+function isPalindrome(string: string): boolean {
   const validChars = 'abcdefghijklmnopqrstuvwxyz'.split('');
-  const charsArr   = string.toLowerCase().split('');
-  const lettersArr = [];
+  const charsArr = string.toLowerCase().split('');
+  const lettersArr: string [] = [];
 
   charsArr.forEach(char => {
     if (validChars.includes(char)) {
@@ -15,4 +15,4 @@ function isPalindrome(string = '') {
   return initialString === reverseString;
 }
 
-module.exports = isPalindrome;
+export default isPalindrome;
