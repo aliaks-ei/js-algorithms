@@ -1,6 +1,6 @@
-function sieveOfEratosthenes(num) {
-  const primes = [];
-  const result = [];
+function sieveOfEratosthenes(num: number): number[] {
+  const primes: boolean[] = [];
+  const result: number[] = [];
 
   for (let i = 0; i <= num; i ++) {
     primes[i] = true;
@@ -15,9 +15,7 @@ function sieveOfEratosthenes(num) {
     }
   }
 
-  const primesLength = primes.length;
-
-  for (let i = 0; i < primesLength; i++) {
+  for (let i = 0; i < primes.length; i++) {
     if (primes[i]) {
       result.push(i);
     }
@@ -26,4 +24,4 @@ function sieveOfEratosthenes(num) {
   return result;
 }
 
-module.exports = sieveOfEratosthenes;
+export default sieveOfEratosthenes;
