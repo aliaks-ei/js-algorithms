@@ -1,4 +1,4 @@
-const maxStockProfit = require('./max-stock-profit');
+import maxStockProfit from ".";
 
 describe('Maximum stock profit: ', () => {
   test('should return 12 as maximum profit', () => {

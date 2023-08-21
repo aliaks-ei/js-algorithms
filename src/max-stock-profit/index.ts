@@ -1,13 +1,11 @@
-function maxStockProfit(prices = []) {
-  const pricesLength = prices.length;
-
+function maxStockProfit(prices: number[]): number {
   let maxProfit = -1;
-  let buyPrice  = 0;
+  let buyPrice = 0;
   let sellPrice = 0;
 
   let changeBuyPrice = true;
 
-  for (let i = 1; i < pricesLength; i++) {
+  for (let i = 1; i < prices.length; i++) {
     if (changeBuyPrice) {
       buyPrice = prices[i];
     }
@@ -31,4 +29,4 @@ function maxStockProfit(prices = []) {
   return maxProfit;
 }
 
-module.exports = maxStockProfit;
+export default maxStockProfit;
