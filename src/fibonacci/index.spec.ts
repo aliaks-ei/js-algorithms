@@ -1,4 +1,4 @@
-const fibonacci = require('./fibonacci');
+import fibonacci from "./";
 
 describe('Fibonacci:', () => {
   test('should return number on position 7', () => {

@@ -9,9 +9,9 @@ given (i.e. 50).
 
 ## Implementation
 
-**_fibonacci(position)_** should return a number on given ```position``` from _Fibonacci_ sequence.
+`fibonacci(position)` should return a number on given `position` from _Fibonacci_ sequence.
 
-For example:
+Example:
 
 ```
 fibonacci(9) // 34
