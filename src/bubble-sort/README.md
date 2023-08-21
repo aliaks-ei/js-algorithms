@@ -8,9 +8,9 @@ The pass through the list is repeated until the list is sorted. The algorithm, w
 
 ## Implementation
 
-**_bubbleSort(array)_** should return the origin ```array```, sorted with _bubble sort_.
+`bubbleSort(array)` should return the origin `array`, sorted with _bubble sort_.
 
-For example:
+Example:
 
 ```
 bubbleSort([5, 3, 8, 2, 1, 4]) //  [1, 2, 3, 4, 5, 8]

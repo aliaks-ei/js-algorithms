@@ -1,4 +1,4 @@
-import binarySearch from "./";
+import binarySearch from ".";
 
 describe('Binary search: ', () => {
   test('should return true (array contains key)', () => {
