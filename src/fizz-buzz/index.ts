@@ -1,4 +1,4 @@
-function fizzBuzz(num) {
+function fizzBuzz(num: number): (string | number)[] {
   const result = [];
 
   for (let i = 1; i <= num; i++) {
@@ -19,4 +19,4 @@ function fizzBuzz(num) {
   return result;
 }
 
-module.exports = fizzBuzz;
+export default fizzBuzz;

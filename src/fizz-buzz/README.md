@@ -7,14 +7,14 @@ any number divisible by 5 on _'Buzz'_ word, and any number divisible both by 3 a
 
 ## Implementation
 
-**_fizzBuzz(num)_** should log in the console an array of numbers from 1 up to ```num``` according to the rules described above.
+`fizzBuzz(num)` should log in the console an array of numbers from 1 up to `num` according to the rules described above.
 
 >- numbers divided by 3 should be replaced on _'Fizz'_ word.
 >- numbers divided by 5 should be replaced on _'Buzz'_ word.
 >- numbers divided by 3 and 5 should be replaced on _'FizzBuzz'_ word.
 
 
-For example:
+Example:
 
 ```
 fizzBuzz(7)  //  [1, 2, "Fizz", 4, "Buzz", "Fizz", 7]
