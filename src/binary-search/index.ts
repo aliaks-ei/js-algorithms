@@ -1,12 +1,12 @@
-function binarySearch(numArray = [], key) {
-  let numArrLength = numArray.length;
+function binarySearch(numArray: number[] = [], key: number): boolean {
+  const numArrLength = numArray.length;
 
   if (!numArrLength) {
     return false;
   }
 
-  let middleIndex = Math.floor(numArrLength / 2);
-  let middleElem  = numArray[middleIndex];
+  const middleIndex = Math.floor(numArrLength / 2);
+  const middleElem = numArray[middleIndex];
 
   if (key < middleElem && numArrLength > 1) {
     let leftHalf = numArray.slice(0, middleIndex);
@@ -23,4 +23,4 @@ function binarySearch(numArray = [], key) {
   }
 }
 
-module.exports = binarySearch;
+export default binarySearch;
