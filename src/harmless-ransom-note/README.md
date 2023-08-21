@@ -7,12 +7,12 @@ with the words present in the magazine text or not.
 
 ## Implementation
 
-**_harmlessRansomNote(noteText, magazineText)_** should return **true** if it's possible 
-to create string ```noteText``` from ```magazineText``` and **false** otherwise.  
+`harmlessRansomNote(noteText, magazineText)` should return `true` if it's possible 
+to create string `noteText` from `magazineText` and `false` otherwise.  
   
 > MEMO: words with punctuation marks (e.g. !, ?, etc.) will be defined as a whole.
 
-For example:
+Example:
 
 ```
 harmlessRansomNote('all in', 'This is all text in magazine') // true
