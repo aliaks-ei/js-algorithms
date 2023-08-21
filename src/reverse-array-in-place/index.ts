@@ -1,4 +1,4 @@
-function reverseArrayInPlace(arr = []) {
+function reverseArrayInPlace(arr: unknown[]): unknown[] {
   const arrLength = arr.length;
 
   for (let i = 0; i < arrLength / 2; i++) {
@@ -11,4 +11,4 @@ function reverseArrayInPlace(arr = []) {
   return arr;
 }
 
-module.exports = reverseArrayInPlace;
+export default reverseArrayInPlace;
